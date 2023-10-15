@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Livro from "./pages/Livro/Livro";
 import Erro from './pages/Erro/Erro'
+import Tabs from '../src/components/Tabs/Tabs'
 
 
 const Rotas = () => {
@@ -12,6 +13,7 @@ const Rotas = () => {
                 <Route path="/" element={ <Home/> }/>
                 <Route path="/_id" element={ <Livro/> }/>
                 <Route path="/*" element={ <Erro/> }></Route>
+                <Route path="/tabs" element={ <Tabs/> }></Route>
             </Routes>
 
         </BrowserRouter>
