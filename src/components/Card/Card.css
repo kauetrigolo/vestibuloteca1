@@ -10,10 +10,6 @@
     background-color: #f1f1f1;
     border-radius: 10px;
     margin-bottom: 50px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
 img{
@@ -21,28 +17,23 @@ img{
     margin-top: 40px;
 }
 
-.Err{
-    margin-top: 0 !important;
-}
-
 .imagem{
     width: 200px;
-    background-color: #fff;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
 
-
 .card h1{
     font-weight: normal;
     text-align: left;
-    margin: 20px 20px;
+    margin: 20px 0px 0px 20px;
+    width: 250px;
+
 }
 
 .infos{
     width: 500px;
     display: flex;
-    columns: 300px 150px 2;
     justify-content: space-between;
     align-items:baseline;
     flex-wrap: wrap;
@@ -59,16 +50,12 @@ img{
     box-shadow: 3px 3px 4px #00000052;
     padding: 5px 20px;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+
 }
 
 .loading::after{
     content: "";
     animation: elipse 1.5s infinite;
-    -webkit-animation: elipse 1.5s infinite;
 }
 
 @keyframes elipse{
@@ -78,14 +65,13 @@ img{
 }
 
 @media (421px <= width <= 768px) {
+    .card{
+        flex-direction: row;
+    }
 
     .card h1{
         font-size: 1.3rem;
-    }
-
-    .infos{
-        flex-direction: row;
-    }
+    } 
 
     
 }
@@ -93,9 +79,12 @@ img{
 @media (300px <= width <= 420px){
     .card h1{
         font-size: 1.2rem;
+        text-align: center;
+        margin-left: 0px;
     }
 
     .card{
+        flex-direction: column;
         height: fit-content;
     }
     .imagem{
@@ -103,8 +92,12 @@ img{
     }
 
     .infos{
-        flex-direction: row;
+        justify-content: center;
+        width: 100%;
     }
 
+    .link{
+        margin-left: 20px;
+    }
 }
 
