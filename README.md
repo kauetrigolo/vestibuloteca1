@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# ¶ Vestibuloteca
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="400" alt="image" src="https://github.com/kauetrigolo/vestibuloteca1/assets/131712297/191fc8de-4681-4d81-b8de-11d60884ebae">
 
-## Available Scripts
+## Objetivo
+Vestibuloteca é um site criado como parte de uma sprint proposta nas aulas de Desenvolvimento Web Front-End, que tem como objetivo consumir a API também criada para a sprint.
+A API [api-livro](api-livro.cyclic.app/livro) guarda informações sobre livros cobrados nos principais vestibulares brasileiros.
 
-In the project directory, you can run:
+## Tecnologias usadas
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![AXIOS](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-### `npm start`
+Utilizamos o React como framework no Front-End, e a biblioteca Axios para criar a conexão com a API da seguinte forma: 
+![utilização do Axios](https://github.com/kauetrigolo/vestibuloteca1/assets/131712297/66db1606-5359-41d7-a5de-172a15135599)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+E depois de importamos essa variável criada para os arquivos onde utilizamos os dados da API, usamos o UseEffect e o UseState do React para exibir os dados.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Também usamos o React-Router-Dom para criar as rotas dentro do site, com uma página principal, uma página sobre o livro e uma página de erro:
 
-### `npm test`
+![image](https://github.com/kauetrigolo/vestibuloteca1/assets/131712297/2cbe35bc-6f7f-49cf-851e-bc00c0cd72bc)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Lembrando que a variável 'Rotas' deve ser exportada e importada como componente no arquivo principal, que nesse caso foi o 'App.js'.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
