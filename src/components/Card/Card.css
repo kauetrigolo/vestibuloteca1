@@ -10,17 +10,18 @@
     background-color: #f1f1f1;
     border-radius: 10px;
     margin-bottom: 50px;
+    box-shadow: 5px 5px 6px #00000052;
 }
 
 img{
     width: 12rem;
-    margin-top: 40px;
 }
 
 .imagem{
-    width: 200px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    display: flex;
+    margin: auto auto;
+    border-right: solid 2px #591E19;
+    height: 150px;
 }
 
 .card h1{
@@ -100,4 +101,3 @@ img{
         margin-left: 20px;
     }
 }
-
