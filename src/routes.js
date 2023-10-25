@@ -33,9 +33,9 @@ const Rotas = () => {
         <BrowserRouter>
             <AuthProvider>
                     <Routes>
+                        <Route path="/" element={ <Home/> }/>
                         <Route path="/login" element={ <Login/> }/>
-                        <Route path="/cadastro" element={ <Cadastro/> }/>
-                        <Route path="/" element={ <Private> <Home/> </Private> }/>
+                        <Route path="/cadastro" element={ <Cadastro/> }/>                   
                         <Route path="/livro/:livroId" element={ <Private> <Livro/> </Private> }/>
                         <Route path="/*" element={  <Erro/> }></Route>
                         <Route path="/tabs" element={ <Private> <Tabs/> </Private> }></Route>
