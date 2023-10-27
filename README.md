@@ -25,10 +25,7 @@ Também usamos o React-Router-Dom para criar as rotas dentro do site, com uma p�
 ![image](https://github.com/kauetrigolo/vestibuloteca1/assets/131712297/2cbe35bc-6f7f-49cf-851e-bc00c0cd72bc)
 
 
-# Desenvolvedores
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/131711415?s=400&u=788cb9091dd633c9e37f634268fe05c2a143e905&v=4" width=115><br><sub>Kauê Trigolo</sub>](https://github.com/kauetrigolo) |  [<img loading="lazy" src="" width=115><br><sub>Laiza Barbosa</sub>](https://github.com/LaizaBarbosa) |  [<img loading="lazy" src="" width=115><br><sub>Lucas Evangelista</sub>](https://github.com/LucasSan1) | [<img loading="lazy" src="" width=115><br><sub>Samuel Leite Pereira</sub>](https://github.com/ProgrammerAndInvestor) |
-| :---: | :---: | :---: | :---: |
 
 
 
